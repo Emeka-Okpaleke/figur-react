@@ -586,4 +586,16 @@ li{
   .mobile-hamburger-container.show {
       display: block; /* Show the mobile menu when open */
   }
+
+  .seventh-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 6px;
+  }
+
+  .seventh-grid h3 {
+    font-size: xx-large;
+    color: #032b69;
+  }
+
 }
