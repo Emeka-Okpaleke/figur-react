@@ -1,8 +1,8 @@
 import vaultimage from "../assets/image/vaultImg.png"
 const Section5 = () => {
     return ( 
-        <div className="fifth-cover">
-                <div className="fifth container">
+        <div className="fifth-cover container">
+                <div className="fifth">
                     <div>
                         <h3>Keep your money in a vault and hold your key.</h3>
                         <p>Vault is a unique feature in figur that allows the user to save money, and send money to their loved ones, and it can only be accessed using a unique key. With vault,

@@ -21,27 +21,29 @@ const Section3 = () => {
   }, [items.length]);
 
   return (
-    <div className="section3-div">
-      <div className="section3-text section3-img">
-        <img src={iphone13Pro} alt="" />
-      </div>
+    <div className="section3-div container">
+      {/* <div className="section3-container container"> */}
+              <div className="section3-text section3-img">
+                <img src={iphone13Pro} alt="" className='iphone-13-Pro'/>
+              </div>
 
-      <div className="section3-text">
-        <h2>Do more with Figur</h2>
-        <p>Save yourself up to 15% of the money you use on your monthly bills.
-          Enjoy cashback every time you pay bills</p>
+              <div className="section3-text">
+                <h2>Do more with Figur</h2>
+                <p>Save yourself up to 15% of the money you use on your monthly bills.
+                  Enjoy cashback every time you pay bills</p>
 
-        <div className="scroll-container">
-          <ul>
-            {items.map((item, index) => (
-              <li key={index} className={index === highlightedIndex ? 'highlighted' : ''}>
-                {item}
-              </li>
-            ))}
-          </ul>
-          <div className="scrollbar"></div>
-        </div>
-      </div>
+                <div className="scroll-container">
+                  <ul>
+                    {items.map((item, index) => (
+                      <li key={index} className={index === highlightedIndex ? 'highlighted' : ''}>
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="scrollbar"></div>
+                </div>
+              </div>
+      {/* </div> */}
     </div>
   );
 }

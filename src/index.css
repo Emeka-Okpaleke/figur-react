@@ -16,8 +16,11 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   padding: 10px 0;
 }
+
+
 
 .nav-bar .links{
   display: flex;
@@ -58,6 +61,10 @@ body{
   background-color: #032B69;
   padding: 10px;
   color: white;
+}
+
+.hamburger{
+  display: none;
 }
 
 .container{
@@ -125,6 +132,11 @@ span{
   display: flex;
   justify-content: space-evenly;
   max-height: fit-content;
+}
+
+.section3-container{
+  display: flex;
+  justify-content: space-between;
 }
 
 .section3-text{
@@ -385,4 +397,193 @@ li{
 .last-section p{
   color: #6F7FA3;
   font-size: 0.875rem;
+}
+
+.mobile-phone-nav{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-phone-nav a{
+  text-decoration: none;
+  color: #032b69;
+  font-size: medium;
+}
+
+
+
+
+@media (min-width: 1024px){
+  .first-write-up{
+      max-width: 600px;
+  }
+}
+@media (max-width: 1024px){
+  .first{
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+  }
+  .container{
+      max-width: 72rem;
+  }
+
+  .section3-div{
+    gap: 2rem;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+  }
+  .video-container{
+      max-height: fit-content;
+      max-width: 400px;
+      align-self: center;
+  }
+  .first-write-up{
+      align-self: center;
+      text-align: center;
+  }
+  .download{
+      display: flex;
+      justify-content: center;
+  }
+  .fifth{
+      flex-direction: column-reverse;
+      gap: 3.5rem;
+  }
+  .fifth-subflex{
+      grid-template-columns: repeat(1, auto);
+  }
+  .fourth{
+      flex-direction: column-reverse;
+      gap: 3.5rem;
+  }
+
+  .sixth{
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .seventh-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+}
+@media (min-width:800px) and (max-width: 1024px){
+  .video{
+      max-width: 100%;
+  }
+  .seventh-grid{
+      display: grid;
+      grid-template-columns: repeat(2, auto);
+      gap: 5rem;
+  }
+
+  .first-write-up{
+      font-size: 3.75rem;
+      color: #032B69;
+      margin-top: 100px;
+      text-wrap: wrap;
+  }
+
+  .first-write-up p{
+      font-size: 1rem;
+      line-height: 1.5rem;
+      text-align: center;
+  }
+  .multiple-icons{
+      grid-template-columns: repeat(2, 23rem);
+  }
+  .first-write-up h2{
+      text-align: center;
+      font-size: 3.75rem;
+      line-height: 1;
+  }
+   
+  .section3-div{
+      /* padding-top: 128px; */
+      flex-direction: row-reverse;
+      overflow: hidden;
+      align-items: end;
+  }
+  .iphone-13-Pro{
+      margin-right: -348px;
+  }
+
+  .fifth-img{
+      width: 100%;
+  }
+  .fifth-cover div p {
+      letter-spacing: -.03em;
+  }
+}
+@media  (max-width: 800px){
+  .navigation {
+      display: none;
+  }
+  
+  /* .nav-buttons{
+      display: none;
+  } */
+
+  .hamburger{
+      display: block;
+      /* align-self: center;
+      color: black; */
+  }
+  .first-blue{
+      max-height: fit-content;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+  }
+  .blue-container-write {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .blue-container-h2p{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .blue-para{
+      text-align: center;
+  }
+  .bH {
+      font-size: 2.25rem;
+      font-weight: 700;
+      color: white;
+
+  }
+  .multiple-icons{
+      grid-template-columns: repeat(1, 381px);
+      justify-content: center;
+  }
+  .final{
+      display: grid;
+      grid-template-columns: repeat(1, auto);
+      gap: 5rem;
+  }
+  .hamburger {
+    display: block;
+    align-self: center;
+    color: black; 
+}
+
+  .navigation, .nav-buttons {
+      display: none; /* Hide regular nav on mobile */
+  }
+
+  .mobile-hamburger-container {
+      display: block;
+      transition: max-height 0.7s ease-out;
+  }
+
+  .mobile-hamburger-container.show {
+      display: block; /* Show the mobile menu when open */
+  }
 }

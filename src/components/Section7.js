@@ -6,8 +6,8 @@ import stores from "../assets/image/Frame12037.png";
 
 const Section7 = () => {
     return (
-        <div className="seventh " style={{paddingTop: '80px'}}>
-            <div className="container seventh-grid">
+        <div className="seventh container" style={{paddingTop: '80px'}}>
+            <div className="seventh-grid">
                 <div className="d1">
                     <img src={group1622} alt="" />
                     <p>You can feel confident that you're always in control of your money.</p>
