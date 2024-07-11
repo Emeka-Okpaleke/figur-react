@@ -133,6 +133,7 @@ span{
 }
 
 .section3-div{
+  padding-top: 80px;
   background-color: #032B69;
   display: flex;
   justify-content: space-evenly;
@@ -145,7 +146,7 @@ span{
 }
 
 .section3-text{
-  max-width: 591px;
+  max-width: 22rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,7 +179,7 @@ span{
 }
 
 .section3-text ul li{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   opacity: 0.5;
   transition: opacity 0.5s, font-weight 0.5s;
@@ -435,6 +436,11 @@ li{
       max-width: 72rem;
   }
 
+  .fifth-subflex {
+    display: flex;
+    flex-direction: column;
+}
+
   .section3-div{
     gap: 2rem;
     flex-direction: column-reverse;
@@ -602,5 +608,54 @@ li{
     font-size: xx-large;
     color: #032b69;
   }
+
+  h2{
+    font-size: 32px;
+
+  }
+
+  .first div h2 {
+    font-size: 32px;
+  }
+
+  .first div h2 {
+    font-size: 32px;
+  }
+
+  .section3-text h2{
+    font-size: 32px;
+  }
+
+  .section3-text p {
+    font-size: 18px;
+    line-height: 2rem;
+  }
+
+  .section3-text ul li{
+    font-size: 20px;
+  }
+
+  .fifth h3 {
+    font-size: 30px;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  .sixth-text-container h4{
+    font-size: 30px;
+  }
+  .fifth h3 {
+    text-align: center;
+  }
+
+  .multiple-icons p{
+    font-size: small;
+  }
+
+  .multiple-icons{
+    font-size: small;
+  }
+
 
 }

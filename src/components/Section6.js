@@ -13,7 +13,7 @@ const Section6 = () => {
                     <h4>Ready to Join the Figur System.</h4>
                     <p>Make life easy for the end user with solutions tailored for
                     growth while ensuring optimum satisfaction.</p>
-                    <img src={Frame12037} alt=""  style={{width: "300px", height: "auto"}}/>
+                    <img src={Frame12037} alt=""  style={{maxwidth: "fit-content", height: "auto"}}/>
                 </div>
 
 
