@@ -12,6 +12,7 @@ body{
 .nav-bar-container{
   position: sticky;
   /* border: 1px solid black; */
+  padding: 10px 0;
   top: 0;
   background-color: white;
   z-index: 1000;
@@ -135,14 +136,14 @@ span{
 .section3-div{
   padding-top: 80px;
   background-color: #032B69;
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex;
+  justify-content: space-evenly; */
   max-height: fit-content;
 }
 
 .section3-container{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .section3-text{
@@ -180,7 +181,7 @@ span{
 
 .section3-text ul li{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: normal;
   opacity: 0.5;
   transition: opacity 0.5s, font-weight 0.5s;
 }
@@ -207,7 +208,7 @@ span{
 .multiple-icons{
   display: grid;
   grid-template-columns: repeat(3, 381px);
-  gap: 1rem;    
+  /* gap: 1rem;     */
 }
 
 .multiple-icons div{
@@ -325,14 +326,14 @@ h5{
 }
 
 .sixth{
-  display: flex;
-  flex-direction: row;
+
   padding-top: 112px;
   background-color: #2260FF;
 }
 
-.sC{
-  
+.sixth-container{
+  display: flex;
+  flex-direction: row;
 }
 
 .sixth-text-container{
@@ -473,6 +474,13 @@ li{
   }
 
   .sixth{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .sixth-container{
+    display: flex;
     flex-direction: column-reverse;
     gap: 2rem;
   }
@@ -507,6 +515,7 @@ li{
   }
   .multiple-icons{
       grid-template-columns: repeat(2, 23rem);
+      justify-content: center;
   }
   .first-write-up h2{
       text-align: center;
@@ -520,9 +529,9 @@ li{
       overflow: hidden;
       align-items: end;
   }
-  .iphone-13-Pro{
+  /* .iphone-13-Pro{
       margin-right: -348px;
-  }
+  } */
 
   .fifth-img{
       width: 100%;
@@ -645,6 +654,11 @@ li{
   .sixth-text-container h4{
     font-size: 30px;
   }
+
+  .sixth-text-container img{
+    width: fit-content;
+  }
+  
   .fifth h3 {
     text-align: center;
   }
@@ -656,6 +670,21 @@ li{
   .multiple-icons{
     font-size: small;
   }
+
+  .section4 h3 {
+    font-size: 32px;
+  }
+
+  .seventh-grid h3 {
+    font-size: 20px;
+  }
+
+  .section3-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 3rem;
+}
 
 
 }

@@ -21,8 +21,8 @@ const Section3 = () => {
   }, [items.length]);
 
   return (
-    <div className="section3-div container">
-      {/* <div className="section3-container container"> */}
+    <div className="section3-div">
+      <div className="section3-container container">
               <div className="section3-text section3-img">
                 <img src={iphone13Pro} alt="" className='iphone-13-Pro'/>
               </div>
@@ -43,7 +43,7 @@ const Section3 = () => {
                   <div className="scrollbar"></div>
                 </div>
               </div>
-      {/* </div> */}
+      </div>
     </div>
   );
 }

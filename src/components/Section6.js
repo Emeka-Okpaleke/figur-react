@@ -2,8 +2,8 @@ import joinfigur from "../assets/image/joinFigur.png"
 import Frame12037 from "../assets/image/Frame12037.png"
 const Section6 = () => {
     return ( 
-        <div className="sixth container">
-
+        <div className="sixth">
+            <div className="sixth-container container">
                 <div className="sixth-image ">
                     <img src={joinfigur} alt="" 
                     style={{width: "100%", height: "100%"}}/>
@@ -15,7 +15,7 @@ const Section6 = () => {
                     growth while ensuring optimum satisfaction.</p>
                     <img src={Frame12037} alt=""  style={{maxwidth: "fit-content", height: "auto"}}/>
                 </div>
-
+            </div>
 
             
         </div>

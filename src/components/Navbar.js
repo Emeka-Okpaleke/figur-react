@@ -10,9 +10,9 @@ const Navbar = () => {
     };
 
     return (
-        <div className="nav-bar-container container">
+        <div className="nav-bar-container">
             {/* <div className="container"> */}
-                <nav className="nav-bar">
+                <nav className="nav-bar container">
                     <div className="links">
                         <img src={figur} alt="" />
                         <div className="navigation">
